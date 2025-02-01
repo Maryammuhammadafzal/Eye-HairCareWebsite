@@ -40,12 +40,12 @@ const Navbar = () => {
         </div>
         <div className="tabs w-[50%] h-fit">
                <ul className="w-full h-[50px] flex justify-between items-center">
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Home</li>
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">About</li>
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Clinical</li>
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Our Range</li>
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Substainability</li>
-                <li className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Contact</li>
+                <li as={Link} to="#"  className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Home</li>
+                <li as={Link} to="#" className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">About</li>
+                <li as={Link} to="#" className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Clinical</li>
+                <li as={Link} to="#" className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Our Range</li>
+                <li as={Link} to="#" className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Substainability</li>
+                <li as={Link} to="#" className="tabItem w-fit p-3 px-5 rounded-3xl h-fit hover:border-b hover:border-b-[#30D5C8] ">Contact</li>
                </ul>
         </div>
         <div className="btn w-[15%] h-fit flex items-center justify-center">
