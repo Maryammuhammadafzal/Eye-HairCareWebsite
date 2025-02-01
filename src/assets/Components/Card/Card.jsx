@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-const Card = () => {
+import { FaUserDoctor } from "react-icons/fa6";
+const Card = ({icon}) => {
 
   return (
     <>
@@ -10,7 +11,7 @@ const Card = () => {
             transition={{ duration: 1 }}>
               <div className="ImageDiv w-full h-[100px] flex items-center">
                 <div className="cardImage bg-teal-100 rounded-full w-[80px] h-[80px] ">
-                  <img src="" alt="" />
+                  <img src={<FaUserDoctor/>} className='w-[50px] h-[50px]' alt="icon" />
                 </div>
               </div>
               <div className="cardTitle h-[100px] w-full items-center flex p-2">

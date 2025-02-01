@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from '../../Components/Button/Button'
 import AboutImage from "../../Images/about_image.jpeg"
-
+import { FaAmbulance } from "react-icons/fa";
+import { FaUserDoctor } from "react-icons/fa6";
 
 const About = () => {
   return (
@@ -14,11 +15,11 @@ const About = () => {
        <p className="text-gray-600 mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus rerum maxime unde quasi nobis animi sit optio! Possimus culpa ab odio omnis voluptatum fugiat in itaque similique alias at!</p>
        <div className="mt-6 space-y-4">
          <div className="flex items-center space-x-4">
-           <img src="/icon1.png" alt="Vision" className="w-10 h-10" />
+           <img src={FaAmbulance} alt="Vision" className="w-10 h-10" />
            <p className="text-lg font-semibold">Our Patients Vision</p>
          </div>
          <div className="flex items-center space-x-4">
-           <img src="/icon2.png" alt="Doctor" className="w-10 h-10" />
+           <img src={FaUserDoctor} alt="Doctor" className="w-10 h-10" />
            <p className="text-lg font-semibold">Trusted Eye Doctor</p>
          </div>
        </div>

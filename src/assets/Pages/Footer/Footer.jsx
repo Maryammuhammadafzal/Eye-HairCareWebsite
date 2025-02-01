@@ -1,7 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP } from "react-icons/fa";
 import { IoLocationSharp, IoCall, IoMail } from "react-icons/io5";
-import Logo from "../../Images/MJEC LOGO BLUE TEXT_edited.avif";
+import Logo from "../../Images/logo.jpeg";
 
 const Footer = () => {
   return (
@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Navigation Bar */}
-      <div className="bg-white mt-10 py-4 rounded-xl flex flex-wrap justify-between items-center px-8">
+      <div className="bg-black mt-10 py-4 rounded-xl flex flex-wrap justify-between items-center px-8">
         <div className="flex items-center gap-2">
           <img src={Logo} className="w-[90px]" alt="logo" />
         </div>

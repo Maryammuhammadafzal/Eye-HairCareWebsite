@@ -2,11 +2,11 @@ import React from "react";
 import { BrowserRouter } from "react-router";
 import { Link } from "react-router";
 import Button from "./Button/Button";
-import Logo from "../Images/MJEC LOGO BLUE TEXT_edited.avif";
+import Logo from "../Images/logo.jpeg";
 
 const Navbar = () => {
   return (
-    <div className="w-[100%] h-[150px] flex flex-col">
+    <div className="w-[100%] h-[150px] flex flex-col bg-black text-white">
       <div className="w-[100%] h-[40px] flex justify-center items-center bg-teal-600">
         <div className="w-[70%] h-[30px] flex justify-between items-center gap-x-2">
           <div className="email w-fit flex items-center">
@@ -34,7 +34,7 @@ const Navbar = () => {
        
        
       </div>
-      <div className="w-[100%] h-[80px] flex justify-center gap-x-5 items-center border-b border-b-[#30D5C8] static">
+      <div className="w-[100%] h-[80px] flex justify-center gap-x-5 items-center  static">
         <div className="logo w-[15%] h-fit">
                 <img src={Logo} className="w-[90px]" alt="logo" />
         </div>
