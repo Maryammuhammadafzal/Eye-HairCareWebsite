@@ -12,7 +12,7 @@ const OurTeam = () => {
                 { name: "Dr. Mel Gibson", specialty: "Laboratory", image: Image4 },
               ];
   return (
-    <div className="bg-white py-10">
+    <div id="ourteam" className="bg-white py-10">
       <div className="text-center mb-10">
         <h1 className="text-5xl font-bold text-gray-300 relative inline-block">
           Our Team

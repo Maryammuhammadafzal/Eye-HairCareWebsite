@@ -4,6 +4,27 @@ import { IoLocationSharp, IoCall, IoMail } from "react-icons/io5";
 import Logo from "../../Images/logo.jpeg";
 
 const Footer = () => {
+        const scrollToHome = () => {
+                document.getElementById("home").scrollIntoView({ behavior: "smooth" });
+              };
+        const scrollToTeam = () => {
+                document.getElementById("ourteam").scrollIntoView({ behavior: "smooth" });
+              };
+              const scrollToAbout = () => {
+                document.getElementById("about").scrollIntoView({ behavior: "smooth" });
+              };
+              const scrollToServices = () => {
+                document.getElementById("services").scrollIntoView({ behavior: "smooth" });
+              };
+              const scrollToFeatures = () => {
+                document.getElementById("features").scrollIntoView({ behavior: "smooth" });
+              };
+              const scrollToAppointment = () => {
+                document.getElementById("appointment").scrollIntoView({ behavior: "smooth" });
+              };
+              const scrollToEmergency = () => {
+                document.getElementById("emergency").scrollIntoView({ behavior: "smooth" });
+              };
   return (
     <footer id="footer"  className="bg-[#0c0f16] text-white py-12 px-8 relative">
       {/* Background Dotted Pattern */}
@@ -36,12 +57,12 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-semibold">Links</h3>
           <ul className="mt-3 space-y-2 text-gray-400 text-sm">
-            <li><a href="#" className="hover:text-blue-400">Home</a></li>
-            <li><a href="#" className="hover:text-blue-400">Who we are</a></li>
-            <li><a href="#" className="hover:text-blue-400">Our services</a></li>
-            <li><a href="#" className="hover:text-blue-400">Why Choose us</a></li>
-            <li><a href="#" className="hover:text-blue-400">Our Team</a></li>
-            <li><a href="#" className="hover:text-blue-400">How It works</a></li>
+            <li><a  onClick={scrollToHome} className="hover:text-blue-400">Home</a></li>
+            <li><a  onClick={scrollToAbout} className="hover:text-blue-400">Who we are</a></li>
+            <li><a  onClick={scrollToServices} className="hover:text-blue-400">Our services</a></li>
+            <li><a  onClick={scrollToFeatures} className="hover:text-blue-400">Why Choose us</a></li>
+            <li><a  onClick={scrollToTeam} className="hover:text-blue-400">Our Team</a></li>
+            <li><a  onClick={scrollToAppointment} className="hover:text-blue-400">How It works</a></li>
           </ul>
         </div>
 
@@ -75,11 +96,11 @@ const Footer = () => {
           <img src={Logo} className="w-[90px]" alt="logo" />
         </div>
         <ul className="flex space-x-6 text-gray-400 text-sm">
-          <li><a href="#" className="hover:text-blue-400">Our Team</a></li>
-          <li><a href="#" className="hover:text-blue-400">Our Services</a></li>
-          <li><a href="#" className="hover:text-blue-400">About</a></li>
-          <li><a href="#" className="hover:text-blue-400">How It work</a></li>
-          <li><a href="#" className="hover:text-blue-400">Contact</a></li>
+          <li><a onClick={scrollToTeam} className="hover:text-blue-400">Our Team</a></li>
+          <li><a onClick={scrollToServices} className="hover:text-blue-400">Our Services</a></li>
+          <li><a onClick={scrollToAbout} className="hover:text-blue-400">About</a></li>
+          <li><a onClick={scrollToAppointment}  className="hover:text-blue-400">How It work</a></li>
+          <li><a onClick={scrollToFeatures} className="hover:text-blue-400">Features</a></li>
         </ul>
       </div>
 
