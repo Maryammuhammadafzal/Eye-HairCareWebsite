@@ -5,7 +5,7 @@ import Logo from "../../Images/logo.jpeg";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0c0f16] text-white py-12 px-8 relative">
+    <footer id="footer"  className="bg-[#0c0f16] text-white py-12 px-8 relative">
       {/* Background Dotted Pattern */}
       <div className="absolute inset-0 bg-gradient-to-r from-transparent to-gray-900 opacity-10 pointer-events-none" />
 

@@ -5,7 +5,7 @@ import ProcessImage from "../../Images/process-1.png"
 
 const About = () => {
   return (
-     <section className="container mx-auto w-[100%] h-screen flex flex-col md:flex-row items-center">
+     <section id='about' className="container mx-auto w-[100%] h-screen flex flex-col md:flex-row items-center">
      <div className="w-full md:w-1/2  p-6 flex flex-col gap-6">
      <h1 className="text-6xl -mb-4 font-bold text-gray-300 relative ">
           Who We Are

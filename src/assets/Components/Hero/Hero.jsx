@@ -3,9 +3,14 @@ import './hero.css'
 import { motion } from "framer-motion";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import Video from "../../Images/video.mp4"
-
+import { Link } from 'react-router';
+import Footer from '../../Pages/Footer/Footer';
 
 const Hero = () => {
+  const scrollToFooter = () => {
+    document.getElementById("footer").scrollIntoView({ behavior: "smooth" });
+  };
+  
   return (
   
 
@@ -46,6 +51,7 @@ const Hero = () => {
           We solve all your eye care needs by providing personalized and holistic eye care for you and your family!
         </motion.p>
         <motion.button 
+         onClick={scrollToFooter} 
          className='transition w-[150px] py-3 rounded-4xl flex justify-center items-center border-[#30D5C8] border  hover:bg-transparent hover:text-black hover:border-black bg-[#30D5C8] text-white'
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}

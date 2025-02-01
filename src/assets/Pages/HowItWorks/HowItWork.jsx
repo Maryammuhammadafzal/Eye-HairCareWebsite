@@ -3,7 +3,7 @@ import ProcessImage from "../../Images/process-1.png"
 
 const HowItWorks = () => {
   return (
-    <div className="py-12 text-center bg-white">
+    <div id="appointment" className="py-12 text-center bg-white">
       <h1 className="text-5xl font-bold text-gray-300 relative inline-block">
           How It Works
           <span className="absolute  top-0 left-0 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-[#30D5C8] opacity-40">

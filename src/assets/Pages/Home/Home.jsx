@@ -13,7 +13,7 @@ import Footer from '../Footer/Footer'
 
 const Home = () => {
   return (
-    <div className='w-[100%] h-auto flex flex-col'>
+    <div id='home' className='w-[100%] h-auto flex flex-col'>
         <Navbar/>
        <Hero/>
        <Services/>

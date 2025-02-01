@@ -4,7 +4,7 @@ import React from 'react'
 const Our_Services = () => {
   return (
     <div>
-       <section className="py-16 bg-gradient-to-br from-[#efdbd0] to-[#b2f2ee] text-gray-900">
+       <section id='services' className="py-16 bg-gradient-to-br from-[#efdbd0] to-[#b2f2ee] text-gray-900">
        <h1 className="text-5xl  flex justify-center font-bold text-gray-300 relative ">
           Our Services
           <span className="absolute  flex justify-center  top-0  text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-[#30D5C8] opacity-40">

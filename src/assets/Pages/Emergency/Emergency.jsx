@@ -3,7 +3,7 @@ import Ambulance from "../../Images/car-1.png"
 
 const EmergencySection = () => {
   return (
-    <div className="relative bg-teal-600 text-white py-12 px-6 md:px-20 flex items-center">
+    <div id="emergency" className="relative bg-teal-600 text-white py-12 px-6 md:px-20 flex items-center">
       <div className="absolute top-0 left-0 w-full h-full bg-teal-600 opacity-80"></div>
       <div className="relative w-[100%] z-10 flex justify-between flex-col md:flex-row items-center">
         <img

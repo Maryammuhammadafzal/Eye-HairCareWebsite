@@ -3,7 +3,7 @@ import ChooseUsImage from "../../Images/ChooseUsImage.jpg"
 
 const WhyChooseUs = () => {
   return (
-    <div className=" bg-[#ffffff]">
+    <div id="features" className=" bg-[#ffffff]">
       <div className="container gap-2 mx-auto flex flex-col md:flex-row items-center py-10 ">
         {/* Left Section */}
         <div className="md:w-1/2 relative">
