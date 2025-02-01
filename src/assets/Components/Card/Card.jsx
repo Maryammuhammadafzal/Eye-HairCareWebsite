@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { FaUserDoctor } from "react-icons/fa6";
-const Card = ({icon}) => {
+const Card = ({icon , image}) => {
 
   return (
     <>
@@ -10,8 +10,8 @@ const Card = ({icon}) => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}>
               <div className="ImageDiv w-full h-[100px] flex items-center">
-                <div className="cardImage bg-teal-100 rounded-full w-[80px] h-[80px] ">
-                  <img src={<FaUserDoctor/>} className='w-[50px] h-[50px]' alt="icon" />
+                <div className="cardImage bg-teal-100 rounded-full flex items-center justify-center w-[80px] h-[80px] ">
+                  <img src={image} className='w-[80px] h-[80px] rounded-full' alt="icon" />
                 </div>
               </div>
               <div className="cardTitle h-[100px] w-full items-center flex p-2">
