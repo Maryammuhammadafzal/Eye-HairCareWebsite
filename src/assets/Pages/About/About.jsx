@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../Components/Button/Button'
 import AboutImage from "../../Images/about_image.jpeg"
 
-{/* Who We Are Section */}
+
 const About = () => {
   return (
      <section className="container mx-auto w-[100%] h-screen flex flex-col md:flex-row items-center">
