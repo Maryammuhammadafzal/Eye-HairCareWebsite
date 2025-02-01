@@ -9,7 +9,7 @@ const Hero = () => {
 
     <>
      <div className="relative w-[100%] h-screen bg-cover bg-center flex items-center justify-center" style={{ backgroundImage: "url('/hero-image.jpg')" }}>
-      <div className="absolute inset-0 bg-[#146f68] opacity-70"></div>
+      <div className="absolute inset-0 bg-teal-600 opacity-90"></div>
       <div className="relative text-center text-white z-10 max-w-2xl p-6 flex items-center flex-col gap-y-2">
         <motion.h2 
           className="text-xl font-semibold text-teal-300"

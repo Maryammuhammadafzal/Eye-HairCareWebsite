@@ -7,7 +7,7 @@ import Logo from "../Images/MJEC LOGO BLUE TEXT_edited.avif";
 const Navbar = () => {
   return (
     <div className="w-[100%] h-[150px] flex flex-col">
-      <div className="w-[100%] h-[40px] flex justify-center items-center bg-[#30D5C8]">
+      <div className="w-[100%] h-[40px] flex justify-center items-center bg-teal-600">
         <div className="w-[70%] h-[30px] flex justify-between items-center gap-x-2">
           <div className="email w-fit flex items-center">
             <img src="" alt="" />

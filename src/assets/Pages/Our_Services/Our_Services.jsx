@@ -3,12 +3,15 @@ import React from 'react'
 const Our_Services = () => {
   return (
     <div>
-       <section className="py-16 bg-gradient-to-br from-[#FBECE4] to-[#E3F2F1] text-gray-900">
-      <div className="container mx-auto text-center">
-        <h2 className="text-5xl font-bold relative text-gray-300 uppercase">
+       <section className="py-16 bg-gradient-to-br from-[#efdbd0] to-[#b2f2ee] text-gray-900">
+       <h1 className="text-5xl font-bold text-gray-300 relative inline-block">
           Our Services
-        </h2>
-        <h3 className="text-3xl font-bold text-gray-900 mt-2">
+          <span className="absolute  top-0 left-0 text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-[#30D5C8] opacity-40">
+            Our Services
+          </span>
+        </h1>
+      <div className="container  mx-auto text-center">
+        <h3 className="text-3xl font-bold  text-gray-900">
           A Global Leader, Treatment of Eye Disease
         </h3>
         <div className="mt-12 grid md:grid-cols-3 gap-6">
