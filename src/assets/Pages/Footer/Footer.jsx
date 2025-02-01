@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Navigation Bar */}
-      <div className="bg-black mt-10 py-4 rounded-xl flex flex-wrap justify-between items-center px-8">
+      <div className="bg-gray-300 mt-10 py-4 rounded-xl flex flex-wrap justify-between items-center px-8">
         <div className="flex items-center gap-2">
           <img src={Logo} className="w-[90px]" alt="logo" />
         </div>

@@ -6,7 +6,7 @@ import Logo from "../Images/logo.jpeg";
 
 const Navbar = () => {
   return (
-    <div className="w-[100%] h-[150px] flex flex-col bg-black text-white">
+    <div className="w-[100%] h-[150px] flex flex-col bg-gray-300">
       <div className="w-[100%] h-[40px] flex justify-center items-center bg-teal-600">
         <div className="w-[70%] h-[30px] flex justify-between items-center gap-x-2">
           <div className="email w-fit flex items-center">
@@ -36,7 +36,7 @@ const Navbar = () => {
       </div>
       <div className="w-[100%] h-[80px] flex justify-center gap-x-5 items-center  static">
         <div className="logo w-[15%] h-fit">
-                <img src={Logo} className="w-[90px]" alt="logo" />
+                <img src={Logo} className="w-[110px] h-[80px]" alt="logo" />
         </div>
         <div className="tabs w-[50%] h-fit">
                <ul className="w-full h-[50px] flex justify-between items-center">
